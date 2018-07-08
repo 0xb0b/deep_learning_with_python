@@ -1,0 +1,7 @@
+h5py
+Keras
+matplotlib
+numpy
+pydot-ng
+scipy
+tensorflow
