@@ -1,7 +1,15 @@
-h5py
-Keras
-matplotlib
+# python scientific suite
+# + blas (basic linear algebra subprogram) lib (openblas)
 numpy
-pydot-ng
 scipy
+matplotlib
+
+# HDF5 for saving large network files + libhdf5
+h5py
+
 tensorflow
+Keras
+
+jupyter
+pydot-ng
+graphviz
