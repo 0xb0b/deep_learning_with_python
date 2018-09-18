@@ -1,5 +1,8 @@
 Deep_Learning_with_Python.pdf
 .idea/
+.data/
+# saved models
+*.h5
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

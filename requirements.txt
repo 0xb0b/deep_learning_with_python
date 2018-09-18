@@ -13,3 +13,4 @@ Keras
 jupyter
 pydot-ng
 graphviz
+Pillow
