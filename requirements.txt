@@ -1,16 +1,30 @@
+# tensorflow supports python 3.6 max (2018-10)
+# install pyenv and python 3.6 to make proper virtualenv
+
+# libraries and packages:
+#   openblas (basic linear algebra subprogram)
+#   hdf5 (for saving large network files)
+#   graphviz
+
+# setup gpu:
+#   cuda
+#   cudnn
+#   optional:
+#     nccl (for multi-gpu)
+#     tensorrt (improve inference)
+
 # python scientific suite
-# + blas (basic linear algebra subprogram) lib (openblas)
 numpy
 scipy
 matplotlib
 
-# HDF5 for saving large network files + libhdf5
+# hdf5
 h5py
 
-tensorflow
+pydot-ng
+
+tensorflow-gpu
 Keras
 
 jupyter
-pydot-ng
-graphviz
 Pillow
