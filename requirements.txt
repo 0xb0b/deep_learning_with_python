@@ -1,4 +1,4 @@
-# tensorflow supports python 3.6 max (2018-10)
+# tensorflow supports python 3.6.x max without problems (2018-10)
 # install pyenv and python 3.6 to make proper virtualenv
 
 # libraries and packages:
@@ -10,7 +10,7 @@
 #   cuda
 #   cudnn
 #   optional:
-#     nccl (for multi-gpu)
+#     nccl (multi-gpu)
 #     tensorrt (improve inference)
 
 # python scientific suite
@@ -23,8 +23,14 @@ h5py
 
 pydot-ng
 
-tensorflow-gpu
 Keras
 
 jupyter
 Pillow
+
+# build tensoflow from source for latest cuda/cudnn
+#   https://www.tensorflow.org/install/source
+# requirements for tensorflow build:
+wheel
+mock
+
